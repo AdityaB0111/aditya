@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+.mainc{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    border: 2px;
+    padding: 50px;
+}
+.cont{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(238, 224, 224);
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 15px;
+}
+.main1{
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    display: flex;    
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.left1{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+   
+}
+.right1{
+    height: 100%;
+    width: 30%;
+}
+.butt{
+    height: 40px;
+    align-self: center;
+}
+.butt :hover{
+    color: aqua;
+    background-color: blueviolet;
+    transform: scale(1.1);
+    
+}
+button{
+    margin-top: 5px;
+    padding: 4px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    background-color: blue;
+}
+.right1 img{
+    height: 100%;
+    width: 100%;
+}
+.main2{
+    height: 20%;
+    background-color:rgb(155, 248, 253);  
+    padding: 6px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.smain2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+}
+.left2{
+    width: 30%;
+    mix-blend-mode: multiply;
+}
+.left2 img{
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+    mix-blend-mode: multiply;
+   
+}
+.right2{
+    width: 70%;
+    margin-top: 10px;
+    text-align: center;
+}
+.covid-19{
+    font-size: 14px;
+}
+.Symptoms{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.main3{
+    height: 30%;
+    background-color: rgb(192, 117, 219); 
+    border: none;  
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.up3{
+    height: 95%;
+    width: 33%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 2px;
+    mix-blend-mode: multiply;
+    background-color: rgb(67, 30, 60);
+    color: white;
+}
+.up3:hover{
+    transform: scale(1.05);
+}
+.mid3{
+    height: 95%;
+    width: 33%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 2px;
+    mix-blend-mode: multiply;
+    background-color: rgb(67, 30, 60);
+    color: white;
+}
+.mid3:hover{
+    transform: scale(1.05);
+}
+.down3:hover{
+    transform: scale(1.05);
+}
+.down3{
+    height: 95%;
+    width: 33%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding: 2px;
+    mix-blend-mode: multiply;
+    background-color: rgb(67, 30, 60);
+    color: white;
+}
+.insidemain3{
+    font-size: 10px;
+    padding: 2px;
+    text-align: center;
+    color: azure;
+
+}
+.main4{
+    height: 30%;
+    background-color: rgb(235, 193, 193);   
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+.insidemain4{
+    height: 100%;
+    width: 100%;
+    
+}
+.imgdoc{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    mix-blend-mode: multiply;
+}
+.imgdoc img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.text .btn{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.btn{
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    background-color: rgb(16, 16, 236);
+    font-size: 12px;
+    margin: bottom 5px; ;
+    
+}
+.btn:hover{
+    color: aqua;
+    background-color: blueviolet;
+    transform: scale(1.1);
+}
+.videos{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
